@@ -66,8 +66,21 @@ ul{
 
 .box2{
     display: flex;
+    margin: 30px;
+    
+}
+.container{
     background-color: white;
-
 
 }
 
+.title, .text{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.items{
+    display: flex;
+    gap: 8px;
+}
